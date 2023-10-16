@@ -1,13 +1,15 @@
 import React from 'react';
 
-const pages = () => {
+const Footer = () => {
   return (
-    <div className='container mx-auto px-5'>
-      <p className='text-white'>
+    <div className='container'>
+      <div className="wrapper py-[40px]">
+        <p className='text-white text-[16px] font-semibold text-center'>
         © Abdukarim Mirzayev | Barcha huquqlar himoyalangan.
       </p>
+      </div>
     </div>
   );
 };
 
-export default pages;
+export default Footer;

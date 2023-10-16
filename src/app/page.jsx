@@ -1,10 +1,18 @@
 "use client"
 
+import Video from "@/components/Video/page"
+import Kurslar from "@/components/Kurslar/page"
+import Lessons from "@/components/Lessons/page";
+import About from "@/components/About/page"
+
 
 const page = () => {
   return (
     <div>
-  <h1>salom</h1>
+  <Video/>
+  <Kurslar/>
+  <Lessons/>
+  <About/>
     </div>
   );
 };

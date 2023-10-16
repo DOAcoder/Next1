@@ -3,10 +3,27 @@ import React from 'react';
 const icon1 = () => {
   return (
     <div>
-      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="68"
+        height="74"
+        viewBox="0 0 68 74"
+        fill="none"
+      >
         <g opacity="0.5">
-          <path d="M8.87991 1.08803L1 1V30.9659H8.28692L23.7816 11.7124V21.6515L17.3759 24.0993L23.7984 31H31V1.00004H23.7849L16.2506 10.8942L8.87991 1.08803Z" stroke="white" stroke-width="1.5" />
-          <path d="M11.6618 16.9684L8.28589 21.4113V12.5213L11.6618 16.9684Z" stroke="white" stroke-width="1.5" />
+          <rect x="30.0042" width="7.99433" height="73.8391" fill="#FAA40C" />
+          <rect
+            width="7.70396"
+            height="76.0565"
+            transform="matrix(0.588544 0.808465 -0.831726 0.555186 63.4622 12.778)"
+            fill="#FAA40C"
+          />
+          <rect
+            width="7.70222"
+            height="76.0695"
+            transform="matrix(-0.585023 0.811017 -0.83406 -0.551673 67.9526 54.8644)"
+            fill="#FAA40C"
+          />
         </g>
       </svg>
     </div>
